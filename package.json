@@ -1,0 +1,29 @@
+{
+  "name": "npm-eslint",
+  "version": "1.0.0",
+  "description": "\"npm ESLint\"",
+  "keywords": [
+    "workspace"
+  ],
+  "homepage": "https://github.com/AlyonaKh29/ajs-workspace-ESLint#readme",
+  "bugs": {
+    "url": "https://github.com/AlyonaKh29/ajs-workspace-ESLint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyonaKh29/ajs-workspace-ESLint.git"
+  },
+  "license": "ISC",
+  "author": "Alyona",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "globals": "^16.0.0"
+  }
+}
